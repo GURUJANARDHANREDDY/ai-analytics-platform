@@ -1,0 +1,1073 @@
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:51:36 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Returning cached DataFrame for key=test_key
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:51:36 | INFO     | backend.data_loader | PyArrow failed; falling back to Pandas CSV reader.
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:51:36 | INFO     | backend.data_loader | Cache cleared (key=k2)
+2026-03-08 10:51:36 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 10:51:36 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 10:51:36 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 10:51:36 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 10:51:36 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 10:51:36 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 10:51:36 | INFO     | backend.data_profiler | Profiling dataset (3 rows, 2 cols)…
+2026-03-08 10:51:36 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.00 MB
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:57:11 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Returning cached DataFrame for key=test_key
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:57:11 | INFO     | backend.data_loader | PyArrow failed; falling back to Pandas CSV reader.
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 10:57:11 | INFO     | backend.data_loader | Cache cleared (key=k2)
+2026-03-08 10:57:11 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 10:57:11 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 10:57:11 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 10:57:11 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 10:57:11 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 10:57:11 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 10:57:11 | INFO     | backend.data_profiler | Profiling dataset (3 rows, 2 cols)…
+2026-03-08 10:57:11 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.00 MB
+2026-03-08 10:59:51 | WARNING  | backend.config | OPENAI_API_KEY is not set. AI insights and chat features will be unavailable.
+2026-03-08 11:02:20 | WARNING  | backend.config | OPENAI_API_KEY is not set. AI insights and chat features will be unavailable.
+2026-03-08 11:03:03 | WARNING  | backend.config | OPENAI_API_KEY is not set. AI insights and chat features will be unavailable.
+2026-03-08 11:13:08 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 11:13:08 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 11:13:08 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 11:13:09 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 11:13:09 | ERROR    | __main__ | Upload error
+Traceback (most recent call last):
+  File "C:\Users\ghanuman\Downloads\ai_analytical_platform\frontend\app.py", line 492, in <module>
+    df, profile, cache_key = _load_and_profile(raw, uploaded_file.name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 228, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 270, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 329, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\Downloads\ai_analytical_platform\frontend\app.py", line 468, in _load_and_profile
+    profile = profile_dataset(df)
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\Downloads\ai_analytical_platform\backend\data_profiler.py", line 78, in profile_dataset
+    detected = classify_column(series)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\Downloads\ai_analytical_platform\backend\data_profiler.py", line 59, in classify_column
+    avg_len = non_null.astype(str).str.len().mean()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 6534, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\managers.py", line 414, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\managers.py", line 354, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\blocks.py", line 616, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\dtypes\astype.py", line 96, in _astype_nansafe
+    return lib.ensure_string_array(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 747, in pandas._libs.lib.ensure_string_array
+  File "lib.pyx", line 816, in pandas._libs.lib.ensure_string_array
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf6 in position 9: invalid start byte
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:13:59 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Returning cached DataFrame for key=test_key
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:13:59 | INFO     | backend.data_loader | PyArrow failed; falling back to Pandas CSV reader.
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:13:59 | INFO     | backend.data_loader | Cache cleared (key=k2)
+2026-03-08 11:13:59 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:13:59 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:13:59 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:13:59 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:13:59 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:13:59 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:13:59 | INFO     | backend.data_profiler | Profiling dataset (3 rows, 2 cols)…
+2026-03-08 11:13:59 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.00 MB
+2026-03-08 11:19:46 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 11:19:46 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 11:19:47 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 11:19:47 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 11:19:47 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 11:19:47 | ERROR    | __main__ | Upload error
+Traceback (most recent call last):
+  File "C:\Users\ghanuman\Downloads\ai_analytical_platform\frontend\app.py", line 492, in <module>
+    df, profile, cache_key = _load_and_profile(raw, uploaded_file.name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 228, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 270, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 329, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\Downloads\ai_analytical_platform\frontend\app.py", line 468, in _load_and_profile
+    profile = profile_dataset(df)
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\Downloads\ai_analytical_platform\backend\data_profiler.py", line 78, in profile_dataset
+    detected = classify_column(series)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\Downloads\ai_analytical_platform\backend\data_profiler.py", line 59, in classify_column
+    avg_len = non_null.astype(str).str.len().mean()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 6534, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\managers.py", line 414, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\managers.py", line 354, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\blocks.py", line 616, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghanuman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\dtypes\astype.py", line 96, in _astype_nansafe
+    return lib.ensure_string_array(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 747, in pandas._libs.lib.ensure_string_array
+  File "lib.pyx", line 816, in pandas._libs.lib.ensure_string_array
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf6 in position 9: invalid start byte
+2026-03-08 11:21:26 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 11:21:26 | INFO     | backend.data_loader | Loaded DataFrame: 2 rows × 2 columns
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:21:36 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Returning cached DataFrame for key=test_key
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:21:36 | INFO     | backend.data_loader | PyArrow failed; trying Pandas.
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Pandas read failed with encoding=utf-8, trying next.
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Pandas read failed with encoding=cp1252, trying next.
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Pandas read failed with encoding=latin-1, trying next.
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:21:36 | INFO     | backend.data_loader | Cache cleared (key=k2)
+2026-03-08 11:21:36 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:21:36 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:21:36 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:21:36 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:21:36 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:21:36 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:21:36 | INFO     | backend.data_profiler | Profiling dataset (3 rows, 2 cols)…
+2026-03-08 11:21:36 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.00 MB
+2026-03-08 11:22:13 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 11:22:13 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 11:22:13 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 11:22:13 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 11:22:15 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 11:22:15 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 11:22:18 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:22:28 | ERROR    | backend.insights_engine | LLM insight generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-08 11:23:02 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:23:07 | ERROR    | backend.insights_engine | LLM insight generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-08 11:23:08 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:23:18 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:23:19 | INFO     | backend.ai_chat_engine | pandasai not installed – skipping PandasAI strategy.
+2026-03-08 11:23:23 | WARNING  | backend.ai_chat_engine | OpenAI chat strategy failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-08 11:23:24 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:24:36 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:25:15 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:25:15 | INFO     | backend.insights_engine | Returning cached insights for key=58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97
+2026-03-08 11:26:43 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:26:43 | INFO     | backend.ai_chat_engine | pandasai not installed – skipping PandasAI strategy.
+2026-03-08 11:26:46 | WARNING  | backend.ai_chat_engine | OpenAI chat strategy failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-08 11:26:47 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:27:26 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Returning cached DataFrame for key=test_key
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:27:26 | INFO     | backend.data_loader | PyArrow failed; trying Pandas.
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Pandas read failed with encoding=utf-8, trying next.
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Pandas read failed with encoding=cp1252, trying next.
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Pandas read failed with encoding=latin-1, trying next.
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:27:26 | INFO     | backend.data_loader | Cache cleared (key=k2)
+2026-03-08 11:27:26 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:27:26 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:27:26 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:27:26 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:27:26 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:27:26 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:27:26 | INFO     | backend.data_profiler | Profiling dataset (3 rows, 2 cols)…
+2026-03-08 11:27:26 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.00 MB
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:30:39 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Returning cached DataFrame for key=test_key
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:30:39 | INFO     | backend.data_loader | PyArrow failed; trying Pandas.
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Pandas read failed with encoding=utf-8, trying next.
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Pandas read failed with encoding=cp1252, trying next.
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Pandas read failed with encoding=latin-1, trying next.
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:30:39 | INFO     | backend.data_loader | Cache cleared (key=k2)
+2026-03-08 11:30:39 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:30:39 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:30:39 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:30:39 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:30:39 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:30:39 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:30:39 | INFO     | backend.data_profiler | Profiling dataset (3 rows, 2 cols)…
+2026-03-08 11:30:39 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.00 MB
+2026-03-08 11:31:32 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:31:32 | INFO     | backend.insights_engine | Returning cached insights for key=58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97
+2026-03-08 11:32:24 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:32:24 | INFO     | backend.ai_chat_engine | pandasai not installed – skipping PandasAI strategy.
+2026-03-08 11:32:27 | WARNING  | backend.ai_chat_engine | OpenAI chat strategy failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-08 11:32:29 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:33:57 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 11:33:57 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 11:33:57 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 11:33:57 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 11:33:59 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 11:33:59 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 11:34:01 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:34:08 | ERROR    | backend.insights_engine | LLM insight generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-08 11:34:24 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:34:24 | INFO     | backend.ai_chat_engine | pandasai not installed – skipping PandasAI strategy.
+2026-03-08 11:34:27 | WARNING  | backend.ai_chat_engine | OpenAI chat strategy failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-08 11:34:29 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:35:29 | WARNING  | backend.ai_chat_engine | OpenAI chat strategy failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:36:41 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Returning cached DataFrame for key=test_key
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:36:41 | INFO     | backend.data_loader | PyArrow failed; trying Pandas.
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Pandas read failed with encoding=utf-8, trying next.
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Pandas read failed with encoding=cp1252, trying next.
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Pandas read failed with encoding=latin-1, trying next.
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:36:41 | INFO     | backend.data_loader | Cache cleared (key=k2)
+2026-03-08 11:36:41 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:36:41 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:36:41 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:36:41 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:36:41 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:36:41 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:36:41 | INFO     | backend.data_profiler | Profiling dataset (3 rows, 2 cols)…
+2026-03-08 11:36:41 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.00 MB
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:39:21 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Returning cached DataFrame for key=test_key
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:39:21 | INFO     | backend.data_loader | PyArrow failed; trying Pandas.
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Pandas read failed with encoding=utf-8, trying next.
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Pandas read failed with encoding=cp1252, trying next.
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Pandas read failed with encoding=latin-1, trying next.
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Cache cleared (key=ALL)
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Detected file encoding: utf-8
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Loaded DataFrame: 3 rows × 3 columns
+2026-03-08 11:39:21 | INFO     | backend.data_loader | Cache cleared (key=k2)
+2026-03-08 11:39:21 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:39:21 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:39:21 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:39:21 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:39:21 | INFO     | backend.data_profiler | Profiling dataset (100 rows, 6 cols)…
+2026-03-08 11:39:21 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.02 MB
+2026-03-08 11:39:21 | INFO     | backend.data_profiler | Profiling dataset (3 rows, 2 cols)…
+2026-03-08 11:39:21 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.00 MB
+2026-03-08 11:42:13 | INFO     | backend.config | Using Google Gemini as AI provider.
+2026-03-08 11:42:34 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 11:42:35 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 11:42:35 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 11:42:35 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 11:42:37 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 11:42:37 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 11:42:39 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:42:49 | ERROR    | backend.insights_engine | Gemini insight generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 10.990002606s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2026-03-08 11:43:03 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:43:03 | WARNING  | backend.ai_chat_engine | Gemini chat failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 56.57466687s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2026-03-08 11:43:05 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:44:17 | INFO     | backend.config | Using Google Gemini as AI provider.
+2026-03-08 11:44:27 | INFO     | backend.config | Using Google Gemini as AI provider.
+2026-03-08 11:44:30 | WARNING  | backend.ai_chat_engine | Gemini chat failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 29.444799834s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2026-03-08 11:45:03 | INFO     | backend.config | Using Google Gemini as AI provider.
+2026-03-08 11:45:05 | WARNING  | backend.ai_chat_engine | Gemini chat failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 54.297855996s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2026-03-08 11:45:37 | INFO     | backend.config | Using Google Gemini as AI provider.
+2026-03-08 11:45:50 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 11:45:50 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 11:45:50 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 11:45:50 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 11:45:52 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 11:45:52 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 11:45:54 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:46:03 | ERROR    | backend.insights_engine | Gemini insight generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 56.985978232s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2026-03-08 11:46:19 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:46:20 | WARNING  | backend.ai_chat_engine | Gemini chat failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 39.672926516s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 39
+}
+]
+2026-03-08 11:46:21 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:46:51 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:46:52 | ERROR    | backend.insights_engine | Gemini insight generation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 7.888598588s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2026-03-08 11:46:53 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:48:02 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:48:02 | WARNING  | backend.ai_chat_engine | Gemini chat failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 57.240187039s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2026-03-08 11:48:04 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:48:45 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:48:46 | WARNING  | backend.ai_chat_engine | Gemini chat failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 14.057258883s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2026-03-08 11:48:47 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:49:12 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:49:13 | WARNING  | backend.ai_chat_engine | Gemini chat failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 46.988659113s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2026-03-08 11:49:14 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:49:51 | INFO     | backend.config | Using Google Gemini as AI provider.
+2026-03-08 11:50:11 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 11:50:11 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 11:50:11 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 11:50:11 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 11:50:13 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 11:50:13 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 11:50:15 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:50:22 | WARNING  | backend.insights_engine | Gemini insights failed (falling back to rule-based): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, hea
+2026-03-08 11:56:48 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:56:48 | INFO     | backend.insights_engine | Returning cached insights for key=58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97
+2026-03-08 11:56:51 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:56:51 | INFO     | backend.insights_engine | Returning cached insights for key=58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97
+2026-03-08 11:56:53 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:56:53 | INFO     | backend.insights_engine | Returning cached insights for key=58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97
+2026-03-08 11:56:55 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 11:56:55 | INFO     | backend.insights_engine | Returning cached insights for key=58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97
+2026-03-08 11:57:02 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 13:37:34 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 15:46:04 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 16:03:27 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 16:13:32 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 16:19:23 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 16:22:25 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 16:29:54 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 16:29:54 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 16:29:55 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 16:29:55 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 16:30:00 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 16:30:01 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 16:30:10 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:30:39 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:31:02 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:31:19 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:31:23 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:31:48 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:32:13 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:33:05 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:34:10 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:34:46 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:34:51 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:34:57 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:35:23 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:35:40 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:36:21 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:36:29 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 16:36:29 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 16:36:31 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:36:48 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:37:07 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:38:10 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:38:14 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:39:13 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 16:39:13 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 16:39:14 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:39:33 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:44:18 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 16:47:44 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 16:47:56 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 16:47:56 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 16:47:57 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 16:47:57 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 16:47:59 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 16:48:00 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 16:48:02 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 16:49:58 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 16:49:59 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 16:49:59 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 16:49:59 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 16:50:01 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 16:50:01 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 16:50:24 | WARNING  | backend.ai_chat_engine | AI code execution failed: Cannot aggregate non-numeric type: datetime64[ns] | Code: result = df.groupby('Order Date').agg({'Sales': 'sum'}).reset_index().sort_values(by='Order Date').r
+2026-03-08 16:56:36 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 16:59:19 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 16:59:19 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:00:28 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 17:00:28 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:02:26 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 17:02:26 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:03:00 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:06:32 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:07:07 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:08:02 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 17:08:02 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:08:03 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:08:53 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:08:55 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:08:59 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:09:49 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 17:09:49 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:09:51 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:13:13 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:13:59 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:14:13 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 17:14:13 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:14:16 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:20:30 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:20:53 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 17:20:53 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:20:56 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:21:24 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:21:31 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:21:35 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:21:40 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:21:49 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:21:57 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:21:59 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:22:15 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:22:25 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:22:48 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:23:28 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:24:37 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:24:39 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:25:11 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:26:30 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:28:57 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:29:03 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:29:35 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 17:29:36 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 17:29:37 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 17:29:37 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 17:29:40 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 17:29:40 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 17:29:46 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:30:13 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:30:49 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:31:48 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:32:42 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:32:53 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:33:21 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:35:23 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:35:55 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:36:14 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:36:41 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:36:51 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:37:13 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:39:15 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 17:39:15 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:44:00 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 17:44:00 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 17:48:33 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:48:55 | INFO     | backend.data_loader | Detected file encoding: cp1252
+2026-03-08 17:48:55 | INFO     | backend.data_loader | Loaded DataFrame: 9994 rows × 21 columns
+2026-03-08 17:48:55 | INFO     | backend.data_loader | Auto-parsed column 'Order Date' as datetime.
+2026-03-08 17:48:55 | INFO     | backend.data_loader | Auto-parsed column 'Ship Date' as datetime.
+2026-03-08 17:48:57 | INFO     | backend.data_profiler | Profiling dataset (9994 rows, 21 cols)…
+2026-03-08 17:48:57 | INFO     | backend.data_profiler | Profiling complete. Memory: 8.27 MB
+2026-03-08 17:49:01 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:50:10 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:50:32 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:50:38 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:50:45 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:50:51 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:50:55 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:54:24 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 17:54:53 | WARNING  | utils.file_utils | Rejected file with extension .xlsx
+2026-03-08 17:56:49 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:57:35 | INFO     | backend.data_loader | Loaded DataFrame: 78309 rows × 22 columns
+2026-03-08 17:57:40 | INFO     | backend.data_loader | Auto-parsed column 'Start Date' as datetime.
+2026-03-08 17:57:41 | INFO     | backend.data_loader | Auto-parsed column 'Updated At' as datetime.
+2026-03-08 17:57:41 | INFO     | backend.data_profiler | Profiling dataset (78309 rows, 22 cols)…
+2026-03-08 17:57:43 | INFO     | backend.data_profiler | Profiling complete. Memory: 45.93 MB
+2026-03-08 17:59:17 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 17:59:36 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:00:07 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:00:26 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:01:45 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:02:20 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:02:56 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:15:33 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 18:16:25 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 18:16:26 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 18:16:44 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:37:58 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 18:39:09 | INFO     | backend.data_loader | Loaded DataFrame: 78309 rows × 22 columns
+2026-03-08 18:39:17 | INFO     | backend.data_loader | Auto-parsed column 'Start Date' as datetime.
+2026-03-08 18:39:18 | INFO     | backend.data_loader | Auto-parsed column 'Updated At' as datetime.
+2026-03-08 18:39:18 | INFO     | backend.data_profiler | Profiling dataset (78309 rows, 22 cols)…
+2026-03-08 18:39:19 | INFO     | backend.data_profiler | Profiling complete. Memory: 45.93 MB
+2026-03-08 18:39:40 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:40:19 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:40:38 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:43:58 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 18:44:08 | INFO     | backend.data_profiler | Profiling dataset (2000 rows, 9 cols)…
+2026-03-08 18:44:08 | INFO     | backend.data_profiler | Profiling complete. Memory: 0.63 MB
+2026-03-08 18:44:09 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:44:24 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:54:27 | INFO     | backend.config | Using Hugging Face as AI provider.
+2026-03-08 18:55:14 | INFO     | backend.data_loader | Loaded DataFrame: 78309 rows × 22 columns
+2026-03-08 18:55:17 | INFO     | backend.data_loader | Auto-parsed column 'Start Date' as datetime.
+2026-03-08 18:55:17 | INFO     | backend.data_loader | Auto-parsed column 'Updated At' as datetime.
+2026-03-08 18:55:17 | INFO     | backend.data_profiler | Profiling dataset (78309 rows, 22 cols)…
+2026-03-08 18:55:18 | INFO     | backend.data_profiler | Profiling complete. Memory: 45.93 MB
+2026-03-08 18:55:21 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:56:24 | INFO     | backend.visualization_engine | Auto-generated 12 charts.
+2026-03-08 18:56:36 | INFO     | backend.visualization_engine | Auto-generated 12 charts.

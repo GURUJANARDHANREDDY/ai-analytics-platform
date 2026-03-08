@@ -1,0 +1,2495 @@
+{
+  "datasets": {
+    "Sample - Superstore": {
+      "dataset_name": "Sample - Superstore",
+      "created_at": "2026-03-08T12:31:41.804800",
+      "owner": "system",
+      "updated_at": "2026-03-08T16:45:40.208913",
+      "description": "",
+      "schema": [
+        {
+          "column_name": "Row ID",
+          "data_type": "int64",
+          "nullable": false,
+          "unique_value_count": 9994,
+          "column_category": "numeric"
+        },
+        {
+          "column_name": "Order ID",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 5009,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Order Date",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 1237,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Ship Date",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 1334,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Ship Mode",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 4,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Customer ID",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 793,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Customer Name",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 793,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Segment",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 3,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Country",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 1,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "City",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 531,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "State",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 49,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Postal Code",
+          "data_type": "int64",
+          "nullable": false,
+          "unique_value_count": 631,
+          "column_category": "numeric"
+        },
+        {
+          "column_name": "Region",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 4,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Product ID",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 1862,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Category",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 3,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Sub-Category",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 17,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Product Name",
+          "data_type": "object",
+          "nullable": false,
+          "unique_value_count": 1850,
+          "column_category": "categorical"
+        },
+        {
+          "column_name": "Sales",
+          "data_type": "float64",
+          "nullable": false,
+          "unique_value_count": 5825,
+          "column_category": "numeric"
+        },
+        {
+          "column_name": "Quantity",
+          "data_type": "int64",
+          "nullable": false,
+          "unique_value_count": 14,
+          "column_category": "numeric"
+        },
+        {
+          "column_name": "Discount",
+          "data_type": "float64",
+          "nullable": false,
+          "unique_value_count": 12,
+          "column_category": "numeric"
+        },
+        {
+          "column_name": "Profit",
+          "data_type": "float64",
+          "nullable": false,
+          "unique_value_count": 7287,
+          "column_category": "numeric"
+        }
+      ],
+      "profiling_report": {
+        "row_count": 9994,
+        "column_count": 21,
+        "memory_usage_mb": 9.221,
+        "duplicate_rows": 0,
+        "duplicate_pct": 0.0,
+        "dtypes_summary": {
+          "identifier": 2,
+          "categorical": 13,
+          "datetime": 2,
+          "numeric": 4
+        },
+        "numeric_columns": [
+          "Sales",
+          "Quantity",
+          "Discount",
+          "Profit"
+        ],
+        "categorical_columns": [
+          "Order ID",
+          "Ship Mode",
+          "Customer ID",
+          "Customer Name",
+          "Segment",
+          "Country",
+          "City",
+          "State",
+          "Region",
+          "Product ID",
+          "Category",
+          "Sub-Category",
+          "Product Name"
+        ],
+        "datetime_columns": [
+          "Order Date",
+          "Ship Date"
+        ],
+        "missing_values": {},
+        "columns": [
+          {
+            "name": "Row ID",
+            "dtype": "int64",
+            "category": "identifier",
+            "null_pct": 0.0,
+            "unique_count": 9994,
+            "top_values": [
+              [
+                "1",
+                1
+              ],
+              [
+                "2",
+                1
+              ],
+              [
+                "3",
+                1
+              ],
+              [
+                "4",
+                1
+              ],
+              [
+                "5",
+                1
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Order ID",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 5009,
+            "top_values": [
+              [
+                "CA-2017-100111",
+                14
+              ],
+              [
+                "CA-2017-157987",
+                12
+              ],
+              [
+                "CA-2016-165330",
+                11
+              ],
+              [
+                "US-2016-108504",
+                11
+              ],
+              [
+                "US-2015-126977",
+                10
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Order Date",
+            "dtype": "object",
+            "category": "datetime",
+            "null_pct": 0.0,
+            "unique_count": 1237,
+            "top_values": [
+              [
+                "9/5/2016",
+                38
+              ],
+              [
+                "9/2/2017",
+                36
+              ],
+              [
+                "11/10/2016",
+                35
+              ],
+              [
+                "12/1/2017",
+                34
+              ],
+              [
+                "12/2/2017",
+                34
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Ship Date",
+            "dtype": "object",
+            "category": "datetime",
+            "null_pct": 0.0,
+            "unique_count": 1334,
+            "top_values": [
+              [
+                "12/16/2015",
+                35
+              ],
+              [
+                "9/26/2017",
+                34
+              ],
+              [
+                "11/21/2017",
+                32
+              ],
+              [
+                "12/6/2017",
+                32
+              ],
+              [
+                "9/6/2017",
+                30
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Ship Mode",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              [
+                "Standard Class",
+                5968
+              ],
+              [
+                "Second Class",
+                1945
+              ],
+              [
+                "First Class",
+                1538
+              ],
+              [
+                "Same Day",
+                543
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Customer ID",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 793,
+            "top_values": [
+              [
+                "WB-21850",
+                37
+              ],
+              [
+                "MA-17560",
+                34
+              ],
+              [
+                "JL-15835",
+                34
+              ],
+              [
+                "PP-18955",
+                34
+              ],
+              [
+                "CK-12205",
+                32
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Customer Name",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 793,
+            "top_values": [
+              [
+                "William Brown",
+                37
+              ],
+              [
+                "Matt Abelman",
+                34
+              ],
+              [
+                "John Lee",
+                34
+              ],
+              [
+                "Paul Prost",
+                34
+              ],
+              [
+                "Chloris Kastensmidt",
+                32
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Segment",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              [
+                "Consumer",
+                5191
+              ],
+              [
+                "Corporate",
+                3020
+              ],
+              [
+                "Home Office",
+                1783
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Country",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              [
+                "United States",
+                9994
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "City",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 531,
+            "top_values": [
+              [
+                "New York City",
+                915
+              ],
+              [
+                "Los Angeles",
+                747
+              ],
+              [
+                "Philadelphia",
+                537
+              ],
+              [
+                "San Francisco",
+                510
+              ],
+              [
+                "Seattle",
+                428
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "State",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 49,
+            "top_values": [
+              [
+                "California",
+                2001
+              ],
+              [
+                "New York",
+                1128
+              ],
+              [
+                "Texas",
+                985
+              ],
+              [
+                "Pennsylvania",
+                587
+              ],
+              [
+                "Washington",
+                506
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Postal Code",
+            "dtype": "int64",
+            "category": "identifier",
+            "null_pct": 0.0,
+            "unique_count": 631,
+            "top_values": [
+              [
+                "10035",
+                263
+              ],
+              [
+                "10024",
+                230
+              ],
+              [
+                "10009",
+                229
+              ],
+              [
+                "94122",
+                203
+              ],
+              [
+                "10011",
+                193
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Region",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              [
+                "West",
+                3203
+              ],
+              [
+                "East",
+                2848
+              ],
+              [
+                "Central",
+                2323
+              ],
+              [
+                "South",
+                1620
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Product ID",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 1862,
+            "top_values": [
+              [
+                "OFF-PA-10001970",
+                19
+              ],
+              [
+                "TEC-AC-10003832",
+                18
+              ],
+              [
+                "FUR-FU-10004270",
+                16
+              ],
+              [
+                "FUR-CH-10002647",
+                15
+              ],
+              [
+                "FUR-CH-10001146",
+                15
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Category",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              [
+                "Office Supplies",
+                6026
+              ],
+              [
+                "Furniture",
+                2121
+              ],
+              [
+                "Technology",
+                1847
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Sub-Category",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              [
+                "Binders",
+                1523
+              ],
+              [
+                "Paper",
+                1370
+              ],
+              [
+                "Furnishings",
+                957
+              ],
+              [
+                "Phones",
+                889
+              ],
+              [
+                "Storage",
+                846
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Product Name",
+            "dtype": "object",
+            "category": "categorical",
+            "null_pct": 0.0,
+            "unique_count": 1850,
+            "top_values": [
+              [
+                "Staple envelope",
+                48
+              ],
+              [
+                "Staples",
+                46
+              ],
+              [
+                "Easy-staple paper",
+                46
+              ],
+              [
+                "Avery Non-Stick Binders",
+                20
+              ],
+              [
+                "Staples in misc. colors",
+                19
+              ]
+            ],
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null
+          },
+          {
+            "name": "Sales",
+            "dtype": "float64",
+            "category": "numeric",
+            "null_pct": 0.0,
+            "unique_count": 5825,
+            "top_values": [
+              [
+                "12.96",
+                56
+              ],
+              [
+                "19.44",
+                39
+              ],
+              [
+                "15.552",
+                39
+              ],
+              [
+                "10.368",
+                36
+              ],
+              [
+                "25.92",
+                36
+              ]
+            ],
+            "mean": 229.858,
+            "median": 54.49,
+            "std": 623.2451,
+            "min": 0.444,
+            "max": 22638.48
+          },
+          {
+            "name": "Quantity",
+            "dtype": "int64",
+            "category": "numeric",
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              [
+                "3",
+                2409
+              ],
+              [
+                "2",
+                2402
+              ],
+              [
+                "5",
+                1230
+              ],
+              [
+                "4",
+                1191
+              ],
+              [
+                "1",
+                899
+              ]
+            ],
+            "mean": 3.7896,
+            "median": 3.0,
+            "std": 2.2251,
+            "min": 1.0,
+            "max": 14.0
+          },
+          {
+            "name": "Discount",
+            "dtype": "float64",
+            "category": "numeric",
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              [
+                "0.0",
+                4798
+              ],
+              [
+                "0.2",
+                3657
+              ],
+              [
+                "0.7",
+                418
+              ],
+              [
+                "0.8",
+                300
+              ],
+              [
+                "0.3",
+                227
+              ]
+            ],
+            "mean": 0.1562,
+            "median": 0.2,
+            "std": 0.2065,
+            "min": 0.0,
+            "max": 0.8
+          },
+          {
+            "name": "Profit",
+            "dtype": "float64",
+            "category": "numeric",
+            "null_pct": 0.0,
+            "unique_count": 7287,
+            "top_values": [
+              [
+                "0.0",
+                65
+              ],
+              [
+                "6.2208",
+                43
+              ],
+              [
+                "9.3312",
+                38
+              ],
+              [
+                "3.6288",
+                32
+              ],
+              [
+                "5.4432",
+                32
+              ]
+            ],
+            "mean": 28.6569,
+            "median": 8.6665,
+            "std": 234.2601,
+            "min": -6599.978,
+            "max": 8399.976
+          }
+        ]
+      },
+      "quality_report": {
+        "overall_score": 79.0,
+        "total_checks": 105,
+        "passed_checks": 101,
+        "failed_checks": 4,
+        "summary": {
+          "total_alerts": 5,
+          "critical_alerts": 0,
+          "warning_alerts": 4,
+          "info_alerts": 1,
+          "completeness": 100.0,
+          "uniqueness": 100.0
+        },
+        "column_scores": {
+          "Row ID": 100.0,
+          "Order ID": 100.0,
+          "Order Date": 100.0,
+          "Ship Date": 100.0,
+          "Ship Mode": 100.0,
+          "Customer ID": 100.0,
+          "Customer Name": 100.0,
+          "Segment": 100.0,
+          "Country": 100.0,
+          "City": 100.0,
+          "State": 100.0,
+          "Postal Code": 100.0,
+          "Region": 100.0,
+          "Product ID": 100.0,
+          "Category": 100.0,
+          "Sub-Category": 100.0,
+          "Product Name": 100.0,
+          "Sales": 95.0,
+          "Quantity": 99.0,
+          "Discount": 95.0,
+          "Profit": 90.0
+        },
+        "alerts": [
+          {
+            "severity": "warning",
+            "column": "Profit",
+            "rule": "negative_check",
+            "message": "Column 'Profit' has 1871 negative values (18.7%)",
+            "value": 1871
+          },
+          {
+            "severity": "warning",
+            "column": "Sales",
+            "rule": "outlier_check",
+            "message": "Column 'Sales' has 1167 outliers (11.7%)",
+            "value": 1167
+          },
+          {
+            "severity": "info",
+            "column": "Quantity",
+            "rule": "outlier_check",
+            "message": "Column 'Quantity' has 170 outliers (1.7%)",
+            "value": 170
+          },
+          {
+            "severity": "warning",
+            "column": "Discount",
+            "rule": "outlier_check",
+            "message": "Column 'Discount' has 856 outliers (8.6%)",
+            "value": 856
+          },
+          {
+            "severity": "warning",
+            "column": "Profit",
+            "rule": "outlier_check",
+            "message": "Column 'Profit' has 1881 outliers (18.8%)",
+            "value": 1881
+          }
+        ]
+      },
+      "lineage": [
+        {
+          "stage_id": "raw_dataset",
+          "timestamp": "2026-03-08T12:31:38.304464",
+          "details": {
+            "filename": "Sample - Superstore.csv"
+          },
+          "stage_label": "Raw Dataset",
+          "stage_icon": "\ud83d\udcc1"
+        },
+        {
+          "stage_id": "bronze_storage",
+          "timestamp": "2026-03-08T12:31:38.306634",
+          "details": {
+            "rows": 9994
+          },
+          "stage_label": "Bronze Layer",
+          "stage_icon": "\ud83e\udd49"
+        },
+        {
+          "stage_id": "data_profiling",
+          "timestamp": "2026-03-08T12:31:38.308637",
+          "details": {
+            "columns": 21
+          },
+          "stage_label": "Data Profiling",
+          "stage_icon": "\ud83d\udd0d"
+        },
+        {
+          "stage_id": "data_quality",
+          "timestamp": "2026-03-08T12:31:38.312020",
+          "details": {
+            "score": 79.0
+          },
+          "stage_label": "Quality Validation",
+          "stage_icon": "\u2705"
+        },
+        {
+          "stage_id": "data_cleaning",
+          "timestamp": "2026-03-08T12:31:38.314792",
+          "details": {
+            "layer": "silver",
+            "timestamp": "2026-03-08T12:31:37.622999",
+            "input_shape": [
+              9994,
+              21
+            ],
+            "transformations": [
+              {
+                "operation": "standardize_column_names",
+                "columns_renamed": 21,
+                "details": [
+                  {
+                    "original": "Row ID",
+                    "standardized": "row_id"
+                  },
+                  {
+                    "original": "Order ID",
+                    "standardized": "order_id"
+                  },
+                  {
+                    "original": "Order Date",
+                    "standardized": "order_date"
+                  },
+                  {
+                    "original": "Ship Date",
+                    "standardized": "ship_date"
+                  },
+                  {
+                    "original": "Ship Mode",
+                    "standardized": "ship_mode"
+                  },
+                  {
+                    "original": "Customer ID",
+                    "standardized": "customer_id"
+                  },
+                  {
+                    "original": "Customer Name",
+                    "standardized": "customer_name"
+                  },
+                  {
+                    "original": "Segment",
+                    "standardized": "segment"
+                  },
+                  {
+                    "original": "Country",
+                    "standardized": "country"
+                  },
+                  {
+                    "original": "City",
+                    "standardized": "city"
+                  },
+                  {
+                    "original": "State",
+                    "standardized": "state"
+                  },
+                  {
+                    "original": "Postal Code",
+                    "standardized": "postal_code"
+                  },
+                  {
+                    "original": "Region",
+                    "standardized": "region"
+                  },
+                  {
+                    "original": "Product ID",
+                    "standardized": "product_id"
+                  },
+                  {
+                    "original": "Category",
+                    "standardized": "category"
+                  },
+                  {
+                    "original": "Sub-Category",
+                    "standardized": "sub_category"
+                  },
+                  {
+                    "original": "Product Name",
+                    "standardized": "product_name"
+                  },
+                  {
+                    "original": "Sales",
+                    "standardized": "sales"
+                  },
+                  {
+                    "original": "Quantity",
+                    "standardized": "quantity"
+                  },
+                  {
+                    "original": "Discount",
+                    "standardized": "discount"
+                  },
+                  {
+                    "original": "Profit",
+                    "standardized": "profit"
+                  }
+                ]
+              },
+              {
+                "operation": "remove_duplicates",
+                "rows_removed": 0
+              },
+              {
+                "operation": "normalize_data_types",
+                "type_changes": {
+                  "order_date": "object \u2192 datetime",
+                  "ship_date": "object \u2192 datetime"
+                }
+              }
+            ],
+            "output_shape": [
+              9994,
+              21
+            ]
+          },
+          "stage_label": "Silver Layer (Cleaning)",
+          "stage_icon": "\ud83e\udd48"
+        },
+        {
+          "stage_id": "feature_engineering",
+          "timestamp": "2026-03-08T12:31:38.349448",
+          "details": {
+            "derived_columns": [
+              "_row_total",
+              "_row_mean",
+              "order_date_year",
+              "order_date_month",
+              "order_date_dayofweek",
+              "ship_date_year",
+              "ship_date_month",
+              "ship_date_dayofweek"
+            ]
+          },
+          "stage_label": "Feature Engineering",
+          "stage_icon": "\u2699\ufe0f"
+        },
+        {
+          "stage_id": "kpi_aggregation",
+          "timestamp": "2026-03-08T12:31:39.334938",
+          "details": {
+            "tables": 44
+          },
+          "stage_label": "Gold Layer (KPIs)",
+          "stage_icon": "\ud83e\udd47"
+        },
+        {
+          "stage_id": "dashboard",
+          "timestamp": "2026-03-08T12:31:41.801531",
+          "details": {
+            "charts": 13
+          },
+          "stage_label": "Dashboard Visualization",
+          "stage_icon": "\ud83d\udcca"
+        },
+        {
+          "stage_id": "raw_dataset",
+          "timestamp": "2026-03-08T13:31:38.481411",
+          "details": {
+            "filename": "Sample - Superstore.csv"
+          },
+          "stage_label": "Raw Dataset",
+          "stage_icon": "\ud83d\udcc1"
+        },
+        {
+          "stage_id": "bronze_storage",
+          "timestamp": "2026-03-08T13:31:38.481411",
+          "details": {
+            "rows": 9994
+          },
+          "stage_label": "Bronze Layer",
+          "stage_icon": "\ud83e\udd49"
+        },
+        {
+          "stage_id": "data_profiling",
+          "timestamp": "2026-03-08T13:31:38.481411",
+          "details": {
+            "columns": 21
+          },
+          "stage_label": "Data Profiling",
+          "stage_icon": "\ud83d\udd0d"
+        },
+        {
+          "stage_id": "data_quality",
+          "timestamp": "2026-03-08T13:31:38.481411",
+          "details": {
+            "score": 79.0
+          },
+          "stage_label": "Quality Validation",
+          "stage_icon": "\u2705"
+        },
+        {
+          "stage_id": "data_cleaning",
+          "timestamp": "2026-03-08T13:31:38.481411",
+          "details": {
+            "layer": "silver",
+            "timestamp": "2026-03-08T13:31:38.109996",
+            "input_shape": [
+              9994,
+              21
+            ],
+            "transformations": [
+              {
+                "operation": "standardize_column_names",
+                "columns_renamed": 21,
+                "details": [
+                  {
+                    "original": "Row ID",
+                    "standardized": "row_id"
+                  },
+                  {
+                    "original": "Order ID",
+                    "standardized": "order_id"
+                  },
+                  {
+                    "original": "Order Date",
+                    "standardized": "order_date"
+                  },
+                  {
+                    "original": "Ship Date",
+                    "standardized": "ship_date"
+                  },
+                  {
+                    "original": "Ship Mode",
+                    "standardized": "ship_mode"
+                  },
+                  {
+                    "original": "Customer ID",
+                    "standardized": "customer_id"
+                  },
+                  {
+                    "original": "Customer Name",
+                    "standardized": "customer_name"
+                  },
+                  {
+                    "original": "Segment",
+                    "standardized": "segment"
+                  },
+                  {
+                    "original": "Country",
+                    "standardized": "country"
+                  },
+                  {
+                    "original": "City",
+                    "standardized": "city"
+                  },
+                  {
+                    "original": "State",
+                    "standardized": "state"
+                  },
+                  {
+                    "original": "Postal Code",
+                    "standardized": "postal_code"
+                  },
+                  {
+                    "original": "Region",
+                    "standardized": "region"
+                  },
+                  {
+                    "original": "Product ID",
+                    "standardized": "product_id"
+                  },
+                  {
+                    "original": "Category",
+                    "standardized": "category"
+                  },
+                  {
+                    "original": "Sub-Category",
+                    "standardized": "sub_category"
+                  },
+                  {
+                    "original": "Product Name",
+                    "standardized": "product_name"
+                  },
+                  {
+                    "original": "Sales",
+                    "standardized": "sales"
+                  },
+                  {
+                    "original": "Quantity",
+                    "standardized": "quantity"
+                  },
+                  {
+                    "original": "Discount",
+                    "standardized": "discount"
+                  },
+                  {
+                    "original": "Profit",
+                    "standardized": "profit"
+                  }
+                ]
+              },
+              {
+                "operation": "remove_duplicates",
+                "rows_removed": 0
+              },
+              {
+                "operation": "normalize_data_types",
+                "type_changes": {
+                  "order_date": "object \u2192 datetime",
+                  "ship_date": "object \u2192 datetime"
+                }
+              }
+            ],
+            "output_shape": [
+              9994,
+              21
+            ]
+          },
+          "stage_label": "Silver Layer (Cleaning)",
+          "stage_icon": "\ud83e\udd48"
+        },
+        {
+          "stage_id": "feature_engineering",
+          "timestamp": "2026-03-08T13:31:38.532148",
+          "details": {
+            "derived_columns": [
+              "_row_total",
+              "_row_mean",
+              "order_date_year",
+              "order_date_month",
+              "order_date_dayofweek",
+              "ship_date_year",
+              "ship_date_month",
+              "ship_date_dayofweek"
+            ]
+          },
+          "stage_label": "Feature Engineering",
+          "stage_icon": "\u2699\ufe0f"
+        },
+        {
+          "stage_id": "kpi_aggregation",
+          "timestamp": "2026-03-08T13:31:38.997286",
+          "details": {
+            "tables": 44
+          },
+          "stage_label": "Gold Layer (KPIs)",
+          "stage_icon": "\ud83e\udd47"
+        },
+        {
+          "stage_id": "dashboard",
+          "timestamp": "2026-03-08T13:31:40.482032",
+          "details": {
+            "charts": 13
+          },
+          "stage_label": "Dashboard Visualization",
+          "stage_icon": "\ud83d\udcca"
+        },
+        {
+          "stage_id": "raw_dataset",
+          "timestamp": "2026-03-08T15:25:54.178849",
+          "details": {
+            "filename": "Sample - Superstore.csv"
+          },
+          "stage_label": "Raw Dataset",
+          "stage_icon": "\ud83d\udcc1"
+        },
+        {
+          "stage_id": "bronze_storage",
+          "timestamp": "2026-03-08T15:25:54.186901",
+          "details": {
+            "rows": 9994
+          },
+          "stage_label": "Bronze Layer",
+          "stage_icon": "\ud83e\udd49"
+        },
+        {
+          "stage_id": "data_profiling",
+          "timestamp": "2026-03-08T15:25:54.197623",
+          "details": {
+            "columns": 21
+          },
+          "stage_label": "Data Profiling",
+          "stage_icon": "\ud83d\udd0d"
+        },
+        {
+          "stage_id": "data_quality",
+          "timestamp": "2026-03-08T15:25:54.213130",
+          "details": {
+            "score": 79.0
+          },
+          "stage_label": "Quality Validation",
+          "stage_icon": "\u2705"
+        },
+        {
+          "stage_id": "data_cleaning",
+          "timestamp": "2026-03-08T15:25:54.226000",
+          "details": {
+            "layer": "silver",
+            "timestamp": "2026-03-08T15:25:53.431370",
+            "input_shape": [
+              9994,
+              21
+            ],
+            "transformations": [
+              {
+                "operation": "standardize_column_names",
+                "columns_renamed": 21,
+                "details": [
+                  {
+                    "original": "Row ID",
+                    "standardized": "row_id"
+                  },
+                  {
+                    "original": "Order ID",
+                    "standardized": "order_id"
+                  },
+                  {
+                    "original": "Order Date",
+                    "standardized": "order_date"
+                  },
+                  {
+                    "original": "Ship Date",
+                    "standardized": "ship_date"
+                  },
+                  {
+                    "original": "Ship Mode",
+                    "standardized": "ship_mode"
+                  },
+                  {
+                    "original": "Customer ID",
+                    "standardized": "customer_id"
+                  },
+                  {
+                    "original": "Customer Name",
+                    "standardized": "customer_name"
+                  },
+                  {
+                    "original": "Segment",
+                    "standardized": "segment"
+                  },
+                  {
+                    "original": "Country",
+                    "standardized": "country"
+                  },
+                  {
+                    "original": "City",
+                    "standardized": "city"
+                  },
+                  {
+                    "original": "State",
+                    "standardized": "state"
+                  },
+                  {
+                    "original": "Postal Code",
+                    "standardized": "postal_code"
+                  },
+                  {
+                    "original": "Region",
+                    "standardized": "region"
+                  },
+                  {
+                    "original": "Product ID",
+                    "standardized": "product_id"
+                  },
+                  {
+                    "original": "Category",
+                    "standardized": "category"
+                  },
+                  {
+                    "original": "Sub-Category",
+                    "standardized": "sub_category"
+                  },
+                  {
+                    "original": "Product Name",
+                    "standardized": "product_name"
+                  },
+                  {
+                    "original": "Sales",
+                    "standardized": "sales"
+                  },
+                  {
+                    "original": "Quantity",
+                    "standardized": "quantity"
+                  },
+                  {
+                    "original": "Discount",
+                    "standardized": "discount"
+                  },
+                  {
+                    "original": "Profit",
+                    "standardized": "profit"
+                  }
+                ]
+              },
+              {
+                "operation": "remove_duplicates",
+                "rows_removed": 0
+              },
+              {
+                "operation": "normalize_data_types",
+                "type_changes": {
+                  "order_date": "object \u2192 datetime",
+                  "ship_date": "object \u2192 datetime"
+                }
+              }
+            ],
+            "output_shape": [
+              9994,
+              21
+            ]
+          },
+          "stage_label": "Silver Layer (Cleaning)",
+          "stage_icon": "\ud83e\udd48"
+        },
+        {
+          "stage_id": "feature_engineering",
+          "timestamp": "2026-03-08T15:25:54.331624",
+          "details": {
+            "derived_columns": [
+              "_row_total",
+              "_row_mean",
+              "order_date_year",
+              "order_date_month",
+              "order_date_dayofweek",
+              "ship_date_year",
+              "ship_date_month",
+              "ship_date_dayofweek"
+            ]
+          },
+          "stage_label": "Feature Engineering",
+          "stage_icon": "\u2699\ufe0f"
+        },
+        {
+          "stage_id": "kpi_aggregation",
+          "timestamp": "2026-03-08T15:25:55.431110",
+          "details": {
+            "tables": 44
+          },
+          "stage_label": "Gold Layer (KPIs)",
+          "stage_icon": "\ud83e\udd47"
+        },
+        {
+          "stage_id": "dashboard",
+          "timestamp": "2026-03-08T15:25:58.243767",
+          "details": {
+            "charts": 13
+          },
+          "stage_label": "Dashboard Visualization",
+          "stage_icon": "\ud83d\udcca"
+        },
+        {
+          "stage_id": "raw_dataset",
+          "timestamp": "2026-03-08T15:33:29.861276",
+          "details": {
+            "filename": "Sample - Superstore.csv"
+          },
+          "stage_label": "Raw Dataset",
+          "stage_icon": "\ud83d\udcc1"
+        },
+        {
+          "stage_id": "bronze_storage",
+          "timestamp": "2026-03-08T15:33:29.879730",
+          "details": {
+            "rows": 9994
+          },
+          "stage_label": "Bronze Layer",
+          "stage_icon": "\ud83e\udd49"
+        },
+        {
+          "stage_id": "data_profiling",
+          "timestamp": "2026-03-08T15:33:29.897119",
+          "details": {
+            "columns": 21
+          },
+          "stage_label": "Data Profiling",
+          "stage_icon": "\ud83d\udd0d"
+        },
+        {
+          "stage_id": "data_quality",
+          "timestamp": "2026-03-08T15:33:29.911369",
+          "details": {
+            "score": 79.0
+          },
+          "stage_label": "Quality Validation",
+          "stage_icon": "\u2705"
+        },
+        {
+          "stage_id": "data_cleaning",
+          "timestamp": "2026-03-08T15:33:29.919460",
+          "details": {
+            "layer": "silver",
+            "timestamp": "2026-03-08T15:33:29.531097",
+            "input_shape": [
+              9994,
+              21
+            ],
+            "transformations": [
+              {
+                "operation": "standardize_column_names",
+                "columns_renamed": 21,
+                "details": [
+                  {
+                    "original": "Row ID",
+                    "standardized": "row_id"
+                  },
+                  {
+                    "original": "Order ID",
+                    "standardized": "order_id"
+                  },
+                  {
+                    "original": "Order Date",
+                    "standardized": "order_date"
+                  },
+                  {
+                    "original": "Ship Date",
+                    "standardized": "ship_date"
+                  },
+                  {
+                    "original": "Ship Mode",
+                    "standardized": "ship_mode"
+                  },
+                  {
+                    "original": "Customer ID",
+                    "standardized": "customer_id"
+                  },
+                  {
+                    "original": "Customer Name",
+                    "standardized": "customer_name"
+                  },
+                  {
+                    "original": "Segment",
+                    "standardized": "segment"
+                  },
+                  {
+                    "original": "Country",
+                    "standardized": "country"
+                  },
+                  {
+                    "original": "City",
+                    "standardized": "city"
+                  },
+                  {
+                    "original": "State",
+                    "standardized": "state"
+                  },
+                  {
+                    "original": "Postal Code",
+                    "standardized": "postal_code"
+                  },
+                  {
+                    "original": "Region",
+                    "standardized": "region"
+                  },
+                  {
+                    "original": "Product ID",
+                    "standardized": "product_id"
+                  },
+                  {
+                    "original": "Category",
+                    "standardized": "category"
+                  },
+                  {
+                    "original": "Sub-Category",
+                    "standardized": "sub_category"
+                  },
+                  {
+                    "original": "Product Name",
+                    "standardized": "product_name"
+                  },
+                  {
+                    "original": "Sales",
+                    "standardized": "sales"
+                  },
+                  {
+                    "original": "Quantity",
+                    "standardized": "quantity"
+                  },
+                  {
+                    "original": "Discount",
+                    "standardized": "discount"
+                  },
+                  {
+                    "original": "Profit",
+                    "standardized": "profit"
+                  }
+                ]
+              },
+              {
+                "operation": "remove_duplicates",
+                "rows_removed": 0
+              },
+              {
+                "operation": "normalize_data_types",
+                "type_changes": {
+                  "order_date": "object \u2192 datetime",
+                  "ship_date": "object \u2192 datetime"
+                }
+              }
+            ],
+            "output_shape": [
+              9994,
+              21
+            ]
+          },
+          "stage_label": "Silver Layer (Cleaning)",
+          "stage_icon": "\ud83e\udd48"
+        },
+        {
+          "stage_id": "feature_engineering",
+          "timestamp": "2026-03-08T15:33:29.960477",
+          "details": {
+            "derived_columns": [
+              "_row_total",
+              "_row_mean",
+              "order_date_year",
+              "order_date_month",
+              "order_date_dayofweek",
+              "ship_date_year",
+              "ship_date_month",
+              "ship_date_dayofweek"
+            ]
+          },
+          "stage_label": "Feature Engineering",
+          "stage_icon": "\u2699\ufe0f"
+        },
+        {
+          "stage_id": "kpi_aggregation",
+          "timestamp": "2026-03-08T15:33:30.387953",
+          "details": {
+            "tables": 44
+          },
+          "stage_label": "Gold Layer (KPIs)",
+          "stage_icon": "\ud83e\udd47"
+        },
+        {
+          "stage_id": "dashboard",
+          "timestamp": "2026-03-08T15:33:31.887870",
+          "details": {
+            "charts": 17
+          },
+          "stage_label": "Dashboard Visualization",
+          "stage_icon": "\ud83d\udcca"
+        },
+        {
+          "stage_id": "raw_dataset",
+          "timestamp": "2026-03-08T15:58:59.212745",
+          "details": {
+            "filename": "Sample - Superstore.csv"
+          },
+          "stage_label": "Raw Dataset",
+          "stage_icon": "\ud83d\udcc1"
+        },
+        {
+          "stage_id": "bronze_storage",
+          "timestamp": "2026-03-08T15:58:59.234713",
+          "details": {
+            "rows": 9994
+          },
+          "stage_label": "Bronze Layer",
+          "stage_icon": "\ud83e\udd49"
+        },
+        {
+          "stage_id": "data_profiling",
+          "timestamp": "2026-03-08T15:58:59.250624",
+          "details": {
+            "columns": 21
+          },
+          "stage_label": "Data Profiling",
+          "stage_icon": "\ud83d\udd0d"
+        },
+        {
+          "stage_id": "data_quality",
+          "timestamp": "2026-03-08T15:58:59.269169",
+          "details": {
+            "score": 79.0
+          },
+          "stage_label": "Quality Validation",
+          "stage_icon": "\u2705"
+        },
+        {
+          "stage_id": "data_cleaning",
+          "timestamp": "2026-03-08T15:58:59.292841",
+          "details": {
+            "layer": "silver",
+            "timestamp": "2026-03-08T15:58:57.967913",
+            "input_shape": [
+              9994,
+              21
+            ],
+            "transformations": [
+              {
+                "operation": "standardize_column_names",
+                "columns_renamed": 21,
+                "details": [
+                  {
+                    "original": "Row ID",
+                    "standardized": "row_id"
+                  },
+                  {
+                    "original": "Order ID",
+                    "standardized": "order_id"
+                  },
+                  {
+                    "original": "Order Date",
+                    "standardized": "order_date"
+                  },
+                  {
+                    "original": "Ship Date",
+                    "standardized": "ship_date"
+                  },
+                  {
+                    "original": "Ship Mode",
+                    "standardized": "ship_mode"
+                  },
+                  {
+                    "original": "Customer ID",
+                    "standardized": "customer_id"
+                  },
+                  {
+                    "original": "Customer Name",
+                    "standardized": "customer_name"
+                  },
+                  {
+                    "original": "Segment",
+                    "standardized": "segment"
+                  },
+                  {
+                    "original": "Country",
+                    "standardized": "country"
+                  },
+                  {
+                    "original": "City",
+                    "standardized": "city"
+                  },
+                  {
+                    "original": "State",
+                    "standardized": "state"
+                  },
+                  {
+                    "original": "Postal Code",
+                    "standardized": "postal_code"
+                  },
+                  {
+                    "original": "Region",
+                    "standardized": "region"
+                  },
+                  {
+                    "original": "Product ID",
+                    "standardized": "product_id"
+                  },
+                  {
+                    "original": "Category",
+                    "standardized": "category"
+                  },
+                  {
+                    "original": "Sub-Category",
+                    "standardized": "sub_category"
+                  },
+                  {
+                    "original": "Product Name",
+                    "standardized": "product_name"
+                  },
+                  {
+                    "original": "Sales",
+                    "standardized": "sales"
+                  },
+                  {
+                    "original": "Quantity",
+                    "standardized": "quantity"
+                  },
+                  {
+                    "original": "Discount",
+                    "standardized": "discount"
+                  },
+                  {
+                    "original": "Profit",
+                    "standardized": "profit"
+                  }
+                ]
+              },
+              {
+                "operation": "remove_duplicates",
+                "rows_removed": 0
+              },
+              {
+                "operation": "normalize_data_types",
+                "type_changes": {
+                  "order_date": "object \u2192 datetime",
+                  "ship_date": "object \u2192 datetime"
+                }
+              }
+            ],
+            "output_shape": [
+              9994,
+              21
+            ]
+          },
+          "stage_label": "Silver Layer (Cleaning)",
+          "stage_icon": "\ud83e\udd48"
+        },
+        {
+          "stage_id": "feature_engineering",
+          "timestamp": "2026-03-08T15:58:59.409835",
+          "details": {
+            "derived_columns": [
+              "_row_total",
+              "_row_mean",
+              "order_date_year",
+              "order_date_month",
+              "order_date_dayofweek",
+              "ship_date_year",
+              "ship_date_month",
+              "ship_date_dayofweek"
+            ]
+          },
+          "stage_label": "Feature Engineering",
+          "stage_icon": "\u2699\ufe0f"
+        },
+        {
+          "stage_id": "kpi_aggregation",
+          "timestamp": "2026-03-08T15:59:01.159753",
+          "details": {
+            "tables": 44
+          },
+          "stage_label": "Gold Layer (KPIs)",
+          "stage_icon": "\ud83e\udd47"
+        },
+        {
+          "stage_id": "dashboard",
+          "timestamp": "2026-03-08T15:59:06.543885",
+          "details": {
+            "charts": 17
+          },
+          "stage_label": "Dashboard Visualization",
+          "stage_icon": "\ud83d\udcca"
+        },
+        {
+          "stage_id": "raw_dataset",
+          "timestamp": "2026-03-08T16:06:26.989428",
+          "details": {
+            "filename": "Sample - Superstore.csv"
+          },
+          "stage_label": "Raw Dataset",
+          "stage_icon": "\ud83d\udcc1"
+        },
+        {
+          "stage_id": "bronze_storage",
+          "timestamp": "2026-03-08T16:06:26.997201",
+          "details": {
+            "rows": 9994
+          },
+          "stage_label": "Bronze Layer",
+          "stage_icon": "\ud83e\udd49"
+        },
+        {
+          "stage_id": "data_profiling",
+          "timestamp": "2026-03-08T16:06:27.014391",
+          "details": {
+            "columns": 21
+          },
+          "stage_label": "Data Profiling",
+          "stage_icon": "\ud83d\udd0d"
+        },
+        {
+          "stage_id": "data_quality",
+          "timestamp": "2026-03-08T16:06:27.049027",
+          "details": {
+            "score": 79.0
+          },
+          "stage_label": "Quality Validation",
+          "stage_icon": "\u2705"
+        },
+        {
+          "stage_id": "data_cleaning",
+          "timestamp": "2026-03-08T16:06:27.070759",
+          "details": {
+            "layer": "silver",
+            "timestamp": "2026-03-08T16:06:25.740660",
+            "input_shape": [
+              9994,
+              21
+            ],
+            "transformations": [
+              {
+                "operation": "standardize_column_names",
+                "columns_renamed": 21,
+                "details": [
+                  {
+                    "original": "Row ID",
+                    "standardized": "row_id"
+                  },
+                  {
+                    "original": "Order ID",
+                    "standardized": "order_id"
+                  },
+                  {
+                    "original": "Order Date",
+                    "standardized": "order_date"
+                  },
+                  {
+                    "original": "Ship Date",
+                    "standardized": "ship_date"
+                  },
+                  {
+                    "original": "Ship Mode",
+                    "standardized": "ship_mode"
+                  },
+                  {
+                    "original": "Customer ID",
+                    "standardized": "customer_id"
+                  },
+                  {
+                    "original": "Customer Name",
+                    "standardized": "customer_name"
+                  },
+                  {
+                    "original": "Segment",
+                    "standardized": "segment"
+                  },
+                  {
+                    "original": "Country",
+                    "standardized": "country"
+                  },
+                  {
+                    "original": "City",
+                    "standardized": "city"
+                  },
+                  {
+                    "original": "State",
+                    "standardized": "state"
+                  },
+                  {
+                    "original": "Postal Code",
+                    "standardized": "postal_code"
+                  },
+                  {
+                    "original": "Region",
+                    "standardized": "region"
+                  },
+                  {
+                    "original": "Product ID",
+                    "standardized": "product_id"
+                  },
+                  {
+                    "original": "Category",
+                    "standardized": "category"
+                  },
+                  {
+                    "original": "Sub-Category",
+                    "standardized": "sub_category"
+                  },
+                  {
+                    "original": "Product Name",
+                    "standardized": "product_name"
+                  },
+                  {
+                    "original": "Sales",
+                    "standardized": "sales"
+                  },
+                  {
+                    "original": "Quantity",
+                    "standardized": "quantity"
+                  },
+                  {
+                    "original": "Discount",
+                    "standardized": "discount"
+                  },
+                  {
+                    "original": "Profit",
+                    "standardized": "profit"
+                  }
+                ]
+              },
+              {
+                "operation": "remove_duplicates",
+                "rows_removed": 0
+              },
+              {
+                "operation": "normalize_data_types",
+                "type_changes": {
+                  "order_date": "object \u2192 datetime",
+                  "ship_date": "object \u2192 datetime"
+                }
+              }
+            ],
+            "output_shape": [
+              9994,
+              21
+            ]
+          },
+          "stage_label": "Silver Layer (Cleaning)",
+          "stage_icon": "\ud83e\udd48"
+        },
+        {
+          "stage_id": "feature_engineering",
+          "timestamp": "2026-03-08T16:06:27.245410",
+          "details": {
+            "derived_columns": [
+              "_row_total",
+              "_row_mean",
+              "order_date_year",
+              "order_date_month",
+              "order_date_dayofweek",
+              "ship_date_year",
+              "ship_date_month",
+              "ship_date_dayofweek"
+            ]
+          },
+          "stage_label": "Feature Engineering",
+          "stage_icon": "\u2699\ufe0f"
+        },
+        {
+          "stage_id": "kpi_aggregation",
+          "timestamp": "2026-03-08T16:06:29.295106",
+          "details": {
+            "tables": 44
+          },
+          "stage_label": "Gold Layer (KPIs)",
+          "stage_icon": "\ud83e\udd47"
+        },
+        {
+          "stage_id": "dashboard",
+          "timestamp": "2026-03-08T16:06:35.812165",
+          "details": {
+            "charts": 17
+          },
+          "stage_label": "Dashboard Visualization",
+          "stage_icon": "\ud83d\udcca"
+        },
+        {
+          "stage_id": "raw_dataset",
+          "timestamp": "2026-03-08T16:29:40.338810",
+          "details": {
+            "filename": "Sample - Superstore.csv"
+          },
+          "stage_label": "Raw Dataset",
+          "stage_icon": "\ud83d\udcc1"
+        },
+        {
+          "stage_id": "bronze_storage",
+          "timestamp": "2026-03-08T16:29:40.365036",
+          "details": {
+            "rows": 9994
+          },
+          "stage_label": "Bronze Layer",
+          "stage_icon": "\ud83e\udd49"
+        },
+        {
+          "stage_id": "data_profiling",
+          "timestamp": "2026-03-08T16:29:40.396163",
+          "details": {
+            "columns": 21
+          },
+          "stage_label": "Data Profiling",
+          "stage_icon": "\ud83d\udd0d"
+        },
+        {
+          "stage_id": "data_quality",
+          "timestamp": "2026-03-08T16:29:40.429508",
+          "details": {
+            "score": 79.0
+          },
+          "stage_label": "Quality Validation",
+          "stage_icon": "\u2705"
+        },
+        {
+          "stage_id": "data_cleaning",
+          "timestamp": "2026-03-08T16:29:40.461401",
+          "details": {
+            "layer": "silver",
+            "timestamp": "2026-03-08T16:29:39.359040",
+            "input_shape": [
+              9994,
+              21
+            ],
+            "transformations": [
+              {
+                "operation": "standardize_column_names",
+                "columns_renamed": 21,
+                "details": [
+                  {
+                    "original": "Row ID",
+                    "standardized": "row_id"
+                  },
+                  {
+                    "original": "Order ID",
+                    "standardized": "order_id"
+                  },
+                  {
+                    "original": "Order Date",
+                    "standardized": "order_date"
+                  },
+                  {
+                    "original": "Ship Date",
+                    "standardized": "ship_date"
+                  },
+                  {
+                    "original": "Ship Mode",
+                    "standardized": "ship_mode"
+                  },
+                  {
+                    "original": "Customer ID",
+                    "standardized": "customer_id"
+                  },
+                  {
+                    "original": "Customer Name",
+                    "standardized": "customer_name"
+                  },
+                  {
+                    "original": "Segment",
+                    "standardized": "segment"
+                  },
+                  {
+                    "original": "Country",
+                    "standardized": "country"
+                  },
+                  {
+                    "original": "City",
+                    "standardized": "city"
+                  },
+                  {
+                    "original": "State",
+                    "standardized": "state"
+                  },
+                  {
+                    "original": "Postal Code",
+                    "standardized": "postal_code"
+                  },
+                  {
+                    "original": "Region",
+                    "standardized": "region"
+                  },
+                  {
+                    "original": "Product ID",
+                    "standardized": "product_id"
+                  },
+                  {
+                    "original": "Category",
+                    "standardized": "category"
+                  },
+                  {
+                    "original": "Sub-Category",
+                    "standardized": "sub_category"
+                  },
+                  {
+                    "original": "Product Name",
+                    "standardized": "product_name"
+                  },
+                  {
+                    "original": "Sales",
+                    "standardized": "sales"
+                  },
+                  {
+                    "original": "Quantity",
+                    "standardized": "quantity"
+                  },
+                  {
+                    "original": "Discount",
+                    "standardized": "discount"
+                  },
+                  {
+                    "original": "Profit",
+                    "standardized": "profit"
+                  }
+                ]
+              },
+              {
+                "operation": "remove_duplicates",
+                "rows_removed": 0
+              },
+              {
+                "operation": "normalize_data_types",
+                "type_changes": {
+                  "order_date": "object \u2192 datetime",
+                  "ship_date": "object \u2192 datetime"
+                }
+              }
+            ],
+            "output_shape": [
+              9994,
+              21
+            ]
+          },
+          "stage_label": "Silver Layer (Cleaning)",
+          "stage_icon": "\ud83e\udd48"
+        },
+        {
+          "stage_id": "feature_engineering",
+          "timestamp": "2026-03-08T16:29:40.603129",
+          "details": {
+            "derived_columns": [
+              "_row_total",
+              "_row_mean",
+              "order_date_year",
+              "order_date_month",
+              "order_date_dayofweek",
+              "ship_date_year",
+              "ship_date_month",
+              "ship_date_dayofweek"
+            ]
+          },
+          "stage_label": "Feature Engineering",
+          "stage_icon": "\u2699\ufe0f"
+        },
+        {
+          "stage_id": "kpi_aggregation",
+          "timestamp": "2026-03-08T16:29:42.011276",
+          "details": {
+            "tables": 44
+          },
+          "stage_label": "Gold Layer (KPIs)",
+          "stage_icon": "\ud83e\udd47"
+        },
+        {
+          "stage_id": "dashboard",
+          "timestamp": "2026-03-08T16:29:47.476472",
+          "details": {
+            "charts": 17
+          },
+          "stage_label": "Dashboard Visualization",
+          "stage_icon": "\ud83d\udcca"
+        },
+        {
+          "stage_id": "raw_dataset",
+          "timestamp": "2026-03-08T16:45:37.872244",
+          "details": {
+            "filename": "Sample - Superstore.csv"
+          },
+          "stage_label": "Raw Dataset",
+          "stage_icon": "\ud83d\udcc1"
+        },
+        {
+          "stage_id": "bronze_storage",
+          "timestamp": "2026-03-08T16:45:37.875737",
+          "details": {
+            "rows": 9994
+          },
+          "stage_label": "Bronze Layer",
+          "stage_icon": "\ud83e\udd49"
+        },
+        {
+          "stage_id": "data_profiling",
+          "timestamp": "2026-03-08T16:45:37.884699",
+          "details": {
+            "columns": 21
+          },
+          "stage_label": "Data Profiling",
+          "stage_icon": "\ud83d\udd0d"
+        },
+        {
+          "stage_id": "data_quality",
+          "timestamp": "2026-03-08T16:45:37.891564",
+          "details": {
+            "score": 79.0
+          },
+          "stage_label": "Quality Validation",
+          "stage_icon": "\u2705"
+        },
+        {
+          "stage_id": "data_cleaning",
+          "timestamp": "2026-03-08T16:45:37.898117",
+          "details": {
+            "layer": "silver",
+            "timestamp": "2026-03-08T16:45:37.641862",
+            "input_shape": [
+              9994,
+              21
+            ],
+            "transformations": [
+              {
+                "operation": "standardize_column_names",
+                "columns_renamed": 21,
+                "details": [
+                  {
+                    "original": "Row ID",
+                    "standardized": "row_id"
+                  },
+                  {
+                    "original": "Order ID",
+                    "standardized": "order_id"
+                  },
+                  {
+                    "original": "Order Date",
+                    "standardized": "order_date"
+                  },
+                  {
+                    "original": "Ship Date",
+                    "standardized": "ship_date"
+                  },
+                  {
+                    "original": "Ship Mode",
+                    "standardized": "ship_mode"
+                  },
+                  {
+                    "original": "Customer ID",
+                    "standardized": "customer_id"
+                  },
+                  {
+                    "original": "Customer Name",
+                    "standardized": "customer_name"
+                  },
+                  {
+                    "original": "Segment",
+                    "standardized": "segment"
+                  },
+                  {
+                    "original": "Country",
+                    "standardized": "country"
+                  },
+                  {
+                    "original": "City",
+                    "standardized": "city"
+                  },
+                  {
+                    "original": "State",
+                    "standardized": "state"
+                  },
+                  {
+                    "original": "Postal Code",
+                    "standardized": "postal_code"
+                  },
+                  {
+                    "original": "Region",
+                    "standardized": "region"
+                  },
+                  {
+                    "original": "Product ID",
+                    "standardized": "product_id"
+                  },
+                  {
+                    "original": "Category",
+                    "standardized": "category"
+                  },
+                  {
+                    "original": "Sub-Category",
+                    "standardized": "sub_category"
+                  },
+                  {
+                    "original": "Product Name",
+                    "standardized": "product_name"
+                  },
+                  {
+                    "original": "Sales",
+                    "standardized": "sales"
+                  },
+                  {
+                    "original": "Quantity",
+                    "standardized": "quantity"
+                  },
+                  {
+                    "original": "Discount",
+                    "standardized": "discount"
+                  },
+                  {
+                    "original": "Profit",
+                    "standardized": "profit"
+                  }
+                ]
+              },
+              {
+                "operation": "remove_duplicates",
+                "rows_removed": 0
+              },
+              {
+                "operation": "normalize_data_types",
+                "type_changes": {
+                  "order_date": "object \u2192 datetime",
+                  "ship_date": "object \u2192 datetime"
+                }
+              }
+            ],
+            "output_shape": [
+              9994,
+              21
+            ]
+          },
+          "stage_label": "Silver Layer (Cleaning)",
+          "stage_icon": "\ud83e\udd48"
+        },
+        {
+          "stage_id": "feature_engineering",
+          "timestamp": "2026-03-08T16:45:37.929435",
+          "details": {
+            "derived_columns": [
+              "_row_total",
+              "_row_mean",
+              "order_date_year",
+              "order_date_month",
+              "order_date_dayofweek",
+              "ship_date_year",
+              "ship_date_month",
+              "ship_date_dayofweek"
+            ]
+          },
+          "stage_label": "Feature Engineering",
+          "stage_icon": "\u2699\ufe0f"
+        },
+        {
+          "stage_id": "kpi_aggregation",
+          "timestamp": "2026-03-08T16:45:38.471926",
+          "details": {
+            "tables": 44
+          },
+          "stage_label": "Gold Layer (KPIs)",
+          "stage_icon": "\ud83e\udd47"
+        },
+        {
+          "stage_id": "dashboard",
+          "timestamp": "2026-03-08T16:45:40.193365",
+          "details": {
+            "charts": 17
+          },
+          "stage_label": "Dashboard Visualization",
+          "stage_icon": "\ud83d\udcca"
+        }
+      ]
+    }
+  }
+}

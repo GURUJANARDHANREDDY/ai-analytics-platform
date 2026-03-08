@@ -1,0 +1,50 @@
+[
+  {
+    "dataset_name": "Sample - Superstore",
+    "action": "pipeline_run",
+    "user": "system",
+    "timestamp": "2026-03-08T12:31:41.834374"
+  },
+  {
+    "dataset_name": "Sample - Superstore",
+    "action": "pipeline_run",
+    "user": "system",
+    "timestamp": "2026-03-08T13:31:40.498481"
+  },
+  {
+    "dataset_name": "Sample - Superstore",
+    "action": "pipeline_run",
+    "user": "system",
+    "timestamp": "2026-03-08T15:25:58.290150"
+  },
+  {
+    "dataset_name": "Sample - Superstore",
+    "action": "pipeline_run",
+    "user": "system",
+    "timestamp": "2026-03-08T15:33:31.913803"
+  },
+  {
+    "dataset_name": "Sample - Superstore",
+    "action": "pipeline_run",
+    "user": "system",
+    "timestamp": "2026-03-08T15:59:06.626728"
+  },
+  {
+    "dataset_name": "Sample - Superstore",
+    "action": "pipeline_run",
+    "user": "system",
+    "timestamp": "2026-03-08T16:06:35.896388"
+  },
+  {
+    "dataset_name": "Sample - Superstore",
+    "action": "pipeline_run",
+    "user": "system",
+    "timestamp": "2026-03-08T16:29:47.579715"
+  },
+  {
+    "dataset_name": "Sample - Superstore",
+    "action": "pipeline_run",
+    "user": "system",
+    "timestamp": "2026-03-08T16:45:40.228054"
+  }
+]

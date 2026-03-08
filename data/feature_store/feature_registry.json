@@ -1,0 +1,160 @@
+{
+  "features": {
+    "customer_lifetime_value": {
+      "name": "customer_lifetime_value",
+      "description": "Total revenue per customer_id",
+      "source_columns": [
+        "revenue",
+        "customer_id"
+      ],
+      "type": "aggregation",
+      "dataset": "demo",
+      "registered_at": "2026-03-08T17:44:54.350738"
+    },
+    "order_id_share_pct": {
+      "name": "order_id_share_pct",
+      "description": "Percentage share of sales by order_id",
+      "source_columns": [
+        "sales",
+        "order_id"
+      ],
+      "type": "share",
+      "dataset": "Sample - Superstore",
+      "registered_at": "2026-03-08T16:45:37.976788"
+    },
+    "ship_mode_share_pct": {
+      "name": "ship_mode_share_pct",
+      "description": "Percentage share of sales by ship_mode",
+      "source_columns": [
+        "sales",
+        "ship_mode"
+      ],
+      "type": "share",
+      "dataset": "Sample - Superstore",
+      "registered_at": "2026-03-08T16:45:37.976788"
+    },
+    "purchase_frequency": {
+      "name": "purchase_frequency",
+      "description": "Number of transactions per customer_id",
+      "source_columns": [
+        "units_sold",
+        "customer_id"
+      ],
+      "type": "frequency",
+      "dataset": "demo",
+      "registered_at": "2026-03-08T17:44:54.350738"
+    },
+    "row_id_zscore": {
+      "name": "row_id_zscore",
+      "description": "Z-score normalized row_id",
+      "source_columns": [
+        "row_id"
+      ],
+      "type": "normalization",
+      "dataset": "Sample - Superstore",
+      "registered_at": "2026-03-08T15:25:54.467381"
+    },
+    "postal_code_zscore": {
+      "name": "postal_code_zscore",
+      "description": "Z-score normalized postal_code",
+      "source_columns": [
+        "postal_code"
+      ],
+      "type": "normalization",
+      "dataset": "Sample - Superstore",
+      "registered_at": "2026-03-08T15:25:54.467381"
+    },
+    "sales_zscore": {
+      "name": "sales_zscore",
+      "description": "Z-score normalized sales",
+      "source_columns": [
+        "sales"
+      ],
+      "type": "normalization",
+      "dataset": "Sample - Superstore",
+      "registered_at": "2026-03-08T16:45:37.976788"
+    },
+    "quantity_zscore": {
+      "name": "quantity_zscore",
+      "description": "Z-score normalized quantity",
+      "source_columns": [
+        "quantity"
+      ],
+      "type": "normalization",
+      "dataset": "Sample - Superstore",
+      "registered_at": "2026-03-08T16:45:37.976788"
+    },
+    "discount_zscore": {
+      "name": "discount_zscore",
+      "description": "Z-score normalized discount",
+      "source_columns": [
+        "discount"
+      ],
+      "type": "normalization",
+      "dataset": "Sample - Superstore",
+      "registered_at": "2026-03-08T16:45:37.976788"
+    },
+    "profit_zscore": {
+      "name": "profit_zscore",
+      "description": "Z-score normalized profit",
+      "source_columns": [
+        "profit"
+      ],
+      "type": "normalization",
+      "dataset": "demo",
+      "registered_at": "2026-03-08T17:44:54.350738"
+    },
+    "_row_total_zscore": {
+      "name": "_row_total_zscore",
+      "description": "Z-score normalized _row_total",
+      "source_columns": [
+        "_row_total"
+      ],
+      "type": "normalization",
+      "dataset": "Sample - Superstore",
+      "registered_at": "2026-03-08T16:45:37.976788"
+    },
+    "customer_id_share_pct": {
+      "name": "customer_id_share_pct",
+      "description": "Percentage share of revenue by customer_id",
+      "source_columns": [
+        "revenue",
+        "customer_id"
+      ],
+      "type": "share",
+      "dataset": "demo",
+      "registered_at": "2026-03-08T17:44:54.350738"
+    },
+    "product_share_pct": {
+      "name": "product_share_pct",
+      "description": "Percentage share of revenue by product",
+      "source_columns": [
+        "revenue",
+        "product"
+      ],
+      "type": "share",
+      "dataset": "demo",
+      "registered_at": "2026-03-08T17:44:54.350738"
+    },
+    "revenue_zscore": {
+      "name": "revenue_zscore",
+      "description": "Z-score normalized revenue",
+      "source_columns": [
+        "revenue"
+      ],
+      "type": "normalization",
+      "dataset": "demo",
+      "registered_at": "2026-03-08T17:44:54.350738"
+    },
+    "units_sold_zscore": {
+      "name": "units_sold_zscore",
+      "description": "Z-score normalized units_sold",
+      "source_columns": [
+        "units_sold"
+      ],
+      "type": "normalization",
+      "dataset": "demo",
+      "registered_at": "2026-03-08T17:44:54.350738"
+    }
+  }
+}

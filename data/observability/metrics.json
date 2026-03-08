@@ -1,0 +1,160 @@
+{
+  "pipeline_runs": [
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T12:31:41.850420",
+      "duration_ms": 6098.07,
+      "status": "success",
+      "steps_completed": 10
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T13:31:45.163905",
+      "duration_ms": 8205.78,
+      "status": "success",
+      "steps_completed": 10
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:26:02.370133",
+      "duration_ms": 11405.37,
+      "status": "success",
+      "steps_completed": 10
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:33:52.856655",
+      "duration_ms": 24090.47,
+      "status": "success",
+      "steps_completed": 10
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:59:14.751324",
+      "duration_ms": 20505.29,
+      "status": "success",
+      "steps_completed": 10
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:06:41.573619",
+      "duration_ms": 18577.89,
+      "status": "success",
+      "steps_completed": 10
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:29:55.503117",
+      "duration_ms": 18672.13,
+      "status": "success",
+      "steps_completed": 10
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:45:43.884608",
+      "duration_ms": 6873.57,
+      "status": "success",
+      "steps_completed": 10
+    }
+  ],
+  "quality_scores": [
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T12:31:37.564570",
+      "score": 79.0
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T13:31:38.053493",
+      "score": 79.0
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:25:53.375667",
+      "score": 79.0
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:33:29.495761",
+      "score": 79.0
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:58:57.843553",
+      "score": 79.0
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:06:25.610532",
+      "score": 79.0
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:29:39.253025",
+      "score": 79.0
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:45:37.623216",
+      "score": 79.0
+    }
+  ],
+  "ingestion_events": [
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T12:31:36.315142",
+      "row_count": 9994,
+      "col_count": 21,
+      "size_mb": 2.182
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T13:31:37.387276",
+      "row_count": 9994,
+      "col_count": 21,
+      "size_mb": 2.182
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:25:52.026051",
+      "row_count": 9994,
+      "col_count": 21,
+      "size_mb": 2.182
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:33:29.029717",
+      "row_count": 9994,
+      "col_count": 21,
+      "size_mb": 2.182
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T15:58:55.918044",
+      "row_count": 9994,
+      "col_count": 21,
+      "size_mb": 2.182
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:06:23.917487",
+      "row_count": 9994,
+      "col_count": 21,
+      "size_mb": 2.182
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:29:37.802119",
+      "row_count": 9994,
+      "col_count": 21,
+      "size_mb": 2.182
+    },
+    {
+      "dataset_name": "Sample - Superstore",
+      "timestamp": "2026-03-08T16:45:37.274964",
+      "row_count": 9994,
+      "col_count": 21,
+      "size_mb": 2.182
+    }
+  ]
+}

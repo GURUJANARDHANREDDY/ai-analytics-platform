@@ -1,0 +1,138 @@
+[
+  {
+    "event_type": "ingestion",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T12:31:36.315142",
+    "details": {
+      "rows": 9994,
+      "cols": 21
+    }
+  },
+  {
+    "event_type": "pipeline_complete",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T12:31:41.866807",
+    "details": {
+      "duration_ms": 6098.07
+    }
+  },
+  {
+    "event_type": "ingestion",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T13:31:37.371281",
+    "details": {
+      "rows": 9994,
+      "cols": 21
+    }
+  },
+  {
+    "event_type": "pipeline_complete",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T13:31:45.172865",
+    "details": {
+      "duration_ms": 8205.78
+    }
+  },
+  {
+    "event_type": "ingestion",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T15:25:51.997845",
+    "details": {
+      "rows": 9994,
+      "cols": 21
+    }
+  },
+  {
+    "event_type": "pipeline_complete",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T15:26:02.373318",
+    "details": {
+      "duration_ms": 11405.37
+    }
+  },
+  {
+    "event_type": "ingestion",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T15:33:29.023148",
+    "details": {
+      "rows": 9994,
+      "cols": 21
+    }
+  },
+  {
+    "event_type": "pipeline_complete",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T15:33:52.861238",
+    "details": {
+      "duration_ms": 24090.47
+    }
+  },
+  {
+    "event_type": "ingestion",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T15:58:55.903717",
+    "details": {
+      "rows": 9994,
+      "cols": 21
+    }
+  },
+  {
+    "event_type": "pipeline_complete",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T15:59:14.773213",
+    "details": {
+      "duration_ms": 20505.29
+    }
+  },
+  {
+    "event_type": "ingestion",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T16:06:23.907969",
+    "details": {
+      "rows": 9994,
+      "cols": 21
+    }
+  },
+  {
+    "event_type": "pipeline_complete",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T16:06:41.590830",
+    "details": {
+      "duration_ms": 18577.89
+    }
+  },
+  {
+    "event_type": "ingestion",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T16:29:37.785837",
+    "details": {
+      "rows": 9994,
+      "cols": 21
+    }
+  },
+  {
+    "event_type": "pipeline_complete",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T16:29:55.530835",
+    "details": {
+      "duration_ms": 18672.13
+    }
+  },
+  {
+    "event_type": "ingestion",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T16:45:37.271447",
+    "details": {
+      "rows": 9994,
+      "cols": 21
+    }
+  },
+  {
+    "event_type": "pipeline_complete",
+    "dataset_name": "Sample - Superstore",
+    "timestamp": "2026-03-08T16:45:43.901244",
+    "details": {
+      "duration_ms": 6873.57
+    }
+  }
+]
